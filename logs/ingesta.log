@@ -1,0 +1,4 @@
+2026-05-07 21:41:17,438 - INFO - Ingesta completada correctamente.
+2026-05-07 21:41:17,438 - INFO - Archivo fuente: data/source/02_Base_WA_Fn-UseC_-Telco-Customer-Churn.csv
+2026-05-07 21:41:17,438 - INFO - Archivo guardado en: data/raw\telco_customer_churn.csv
+2026-05-07 21:41:17,438 - INFO - Filas: 7043 | Columnas: 21
