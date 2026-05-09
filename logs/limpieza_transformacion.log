@@ -1,4 +1,4 @@
-2026-05-07 23:16:55,981 - INFO - Inspección inicial completada.
+2026-05-07 23:16:55,981 - INFO - Inspecciï¿½n inicial completada.
 2026-05-07 23:16:55,981 - INFO - Filas iniciales: 7043 | Columnas iniciales: 21
 2026-05-07 23:16:55,981 - INFO - Columnas: ['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn']
 2026-05-07 23:16:55,981 - INFO - Tipos de datos iniciales:
@@ -50,13 +50,13 @@ dtype: int64
 2026-05-07 23:16:55,994 - INFO - Duplicados iniciales: 0
 2026-05-07 23:16:55,995 - INFO - CustomerID duplicados iniciales: 0
 2026-05-07 23:16:56,009 - INFO - Se eliminaron espacios en columnas de texto.
-2026-05-07 23:16:56,011 - INFO - Se convirtió TotalCharges a numérico, forzando errores a valores nulos.
-2026-05-07 23:16:56,013 - INFO - Faltantes en TotalCharges antes: 11 | después: 0
-2026-05-07 23:16:56,013 - INFO - Se transformó SeniorCitizen de binario a categoría legible.
+2026-05-07 23:16:56,011 - INFO - Se convirtiï¿½ TotalCharges a numï¿½rico, forzando errores a valores nulos.
+2026-05-07 23:16:56,013 - INFO - Faltantes en TotalCharges antes: 11 | despuï¿½s: 0
+2026-05-07 23:16:56,013 - INFO - Se transformï¿½ SeniorCitizen de binario a categorï¿½a legible.
 2026-05-07 23:16:56,014 - INFO - Registros removidos por tenure negativo: 0
 2026-05-07 23:16:56,014 - INFO - Registros removidos por MonthlyCharges negativo: 0
 2026-05-07 23:16:56,014 - INFO - Registros removidos por TotalCharges negativo: 0
-2026-05-07 23:16:56,015 - INFO - Se creó la variable derivada Tenure_Group.
+2026-05-07 23:16:56,015 - INFO - Se creï¿½ la variable derivada Tenure_Group.
 2026-05-07 23:16:56,027 - INFO - Tipos de datos finales:
 customerID              str
 gender                  str
@@ -107,6 +107,6 @@ Tenure_Group        0
 dtype: int64
 2026-05-07 23:16:56,039 - INFO - Duplicados finales: 0
 2026-05-07 23:16:56,039 - INFO - CustomerID duplicados finales: 0
-2026-05-07 23:16:56,065 - INFO - Limpieza y transformación completadas correctamente.
+2026-05-07 23:16:56,065 - INFO - Limpieza y transformaciï¿½n completadas correctamente.
 2026-05-07 23:16:56,065 - INFO - Archivo guardado en: data/processed\telco_customer_churn_clean.csv
 2026-05-07 23:16:56,065 - INFO - Filas finales: 7043 | Columnas finales: 22

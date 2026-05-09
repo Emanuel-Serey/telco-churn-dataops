@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.vscode/
+.git/
+img/
+logs/
+data/raw/
+data/processed/
+data/validated/
+data/reports/
+data/inserted/
+data/rejected/
