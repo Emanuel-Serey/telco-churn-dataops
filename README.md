@@ -66,7 +66,7 @@ telco_churn_dataops/
 ├── Dockerfile
 ├── README.md
 └── requirements.txt
-
+```
 
 ## Tecnologías utilizadas
 
