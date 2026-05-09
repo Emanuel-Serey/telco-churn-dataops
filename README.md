@@ -2,26 +2,28 @@
 
 ## Descripción
 
-Este proyecto implementa un pipeline DataOps para el caso Telco Customer Churn, con el objetivo de automatizar el flujo de datos desde la ingesta del dataset hasta su carga en una base de datos relacional PostgreSQL.
+Este proyecto implementa un pipeline DataOps para el caso **Telco Customer Churn**, con el objetivo de automatizar el flujo de datos desde la ingesta del dataset hasta su carga en una base de datos relacional PostgreSQL.
 
 El pipeline fue desarrollado en Python y considera cuatro etapas principales:
 
-Ingesta de datos
-Limpieza y transformación
-Validación estructural y semántica
-Carga a base de datos
+- Ingesta de datos
+- Limpieza y transformación
+- Validación estructural y semántica
+- Carga a base de datos
 
-Además, el proyecto incluye generación de logs, reportes de validación, evidencia de ejecución, archivo Dockerfile y repositorio GitHub como soporte técnico del trabajo.
+Además, el proyecto incluye generación de logs, reportes de validación, evidencia de ejecución, archivo `Dockerfile` y repositorio GitHub como soporte técnico del trabajo.
 
 ## Objetivo del proyecto
 
 Desarrollar un pipeline automatizado y reproducible que permita procesar un dataset de churn de clientes de telecomunicaciones, asegurando calidad de datos, trazabilidad del flujo y persistencia en una base de datos PostgreSQL.
 
-### Caso de uso
+## Caso de uso
 
-El proyecto utiliza el dataset Telco Customer Churn, que contiene información de clientes, servicios contratados, cargos mensuales, cargos totales y la variable objetivo Churn, la cual indica si el cliente abandonó o no la compañía.
+El proyecto utiliza el dataset **Telco Customer Churn**, que contiene información de clientes, servicios contratados, cargos mensuales, cargos totales y la variable objetivo `Churn`, la cual indica si el cliente abandonó o no la compañía.
 
 ## Estructura del proyecto
+
+```text
 telco_churn_dataops/
 ├── data/
 │   ├── source/
