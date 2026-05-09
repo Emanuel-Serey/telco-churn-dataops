@@ -1,0 +1,6 @@
+2026-05-08 23:38:04,029 - INFO - Inicio de validaci�n estructural y sem�ntica.
+2026-05-08 23:38:04,029 - INFO - Filas le�das: 7043 | Columnas le�das: 22
+2026-05-08 23:38:04,039 - INFO - No se detectaron errores de validaci�n.
+2026-05-08 23:38:04,064 - INFO - Validaci�n completada correctamente.
+2026-05-08 23:38:04,064 - INFO - Reporte guardado en: data/reports\validation_report.csv
+2026-05-08 23:38:04,065 - INFO - Dataset validado guardado en: data/validated\telco_customer_churn_validated.csv

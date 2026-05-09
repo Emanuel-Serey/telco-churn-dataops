@@ -1,0 +1,7 @@
+2026-05-08 23:37:30,077 - ERROR - Error durante la carga: No se encontró el archivo: data/validated/telco_customer_churn_validated.csv
+2026-05-08 23:38:36,500 - INFO - Dataset validado cargado correctamente.
+2026-05-08 23:38:36,500 - INFO - Filas leídas: 7043 | Columnas leídas: 22
+2026-05-08 23:38:37,936 - INFO - Registros insertados: 7043
+2026-05-08 23:38:37,936 - INFO - Registros rechazados: 0
+2026-05-08 23:38:37,936 - INFO - Registros omitidos por conflicto: 0
+2026-05-08 23:38:37,936 - INFO - Carga a base de datos completada correctamente.
