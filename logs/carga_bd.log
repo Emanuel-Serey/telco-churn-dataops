@@ -1,6 +1,0 @@
-2026-05-08 01:24:14,380 - INFO - Dataset validado cargado correctamente.
-2026-05-08 01:24:14,380 - INFO - Filas leídas: 7043 | Columnas leídas: 22
-2026-05-08 01:24:15,766 - INFO - Registros insertados: 7043
-2026-05-08 01:24:15,766 - INFO - Registros rechazados: 0
-2026-05-08 01:24:15,766 - INFO - Registros omitidos por conflicto: 0
-2026-05-08 01:24:15,766 - INFO - Carga a base de datos completada correctamente.

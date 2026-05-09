@@ -1,6 +1,0 @@
-2026-05-07 23:32:07,580 - INFO - Inicio de validación estructural y semántica.
-2026-05-07 23:32:07,580 - INFO - Filas leídas: 7043 | Columnas leídas: 22
-2026-05-07 23:32:07,587 - INFO - No se detectaron errores de validación.
-2026-05-07 23:32:07,613 - INFO - Validación completada correctamente.
-2026-05-07 23:32:07,613 - INFO - Reporte guardado en: data/reports\validation_report.csv
-2026-05-07 23:32:07,613 - INFO - Dataset validado guardado en: data/validated\telco_customer_churn_validated.csv
