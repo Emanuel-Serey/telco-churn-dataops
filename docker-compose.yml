@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: telco_app
+    depends_on:
+      - db
+    environment:
+      PGHOST: db
+      PGPORT: 5432
+      PGDATABASE: telco_churn_db
+      PGUSER: postgres
+      PGPASSWORD: postgres123
+    volumes:
+      - .:/app
+
+  db:
+    image: postgres:16
+    container_name: telco_db
+    environment:
+      POSTGRES_DB: telco_churn_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

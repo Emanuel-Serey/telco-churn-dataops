@@ -4,3 +4,27 @@
 2026-05-08 23:38:04,064 - INFO - Validaci锟絥 completada correctamente.
 2026-05-08 23:38:04,064 - INFO - Reporte guardado en: data/reports\validation_report.csv
 2026-05-08 23:38:04,065 - INFO - Dataset validado guardado en: data/validated\telco_customer_churn_validated.csv
+2026-05-14 01:59:48,580 - INFO - Inicio de validaci髇 estructural y sem醤tica.
+2026-05-14 01:59:48,580 - INFO - Filas le韉as: 7043 | Columnas le韉as: 22
+2026-05-14 01:59:48,588 - INFO - No se detectaron errores de validaci髇.
+2026-05-14 01:59:48,614 - INFO - Validaci髇 completada correctamente.
+2026-05-14 01:59:48,614 - INFO - Reporte guardado en: data/reports\validation_report.csv
+2026-05-14 01:59:48,614 - INFO - Dataset validado guardado en: data/validated\telco_customer_churn_validated.csv
+2026-05-14 09:00:17,824 - INFO - Inicio de validaci贸n estructural y sem谩ntica.
+2026-05-14 09:00:17,825 - INFO - Filas le铆das: 7043 | Columnas le铆das: 22
+2026-05-14 09:00:17,833 - INFO - No se detectaron errores de validaci贸n.
+2026-05-14 09:00:18,011 - INFO - Validaci贸n completada correctamente.
+2026-05-14 09:00:18,012 - INFO - Reporte guardado en: data/reports/validation_report.csv
+2026-05-14 09:00:18,012 - INFO - Dataset validado guardado en: data/validated/telco_customer_churn_validated.csv
+2026-05-14 09:23:22,770 - INFO - Inicio de validaci贸n estructural y sem谩ntica.
+2026-05-14 09:23:22,770 - INFO - Filas le铆das: 7043 | Columnas le铆das: 22
+2026-05-14 09:23:22,776 - INFO - No se detectaron errores de validaci贸n.
+2026-05-14 09:23:22,837 - INFO - Validaci贸n completada correctamente.
+2026-05-14 09:23:22,837 - INFO - Reporte guardado en: data/reports/validation_report.csv
+2026-05-14 09:23:22,838 - INFO - Dataset validado guardado en: data/validated/telco_customer_churn_validated.csv
+2026-05-14 09:45:14,912 - INFO - Inicio de validaci贸n estructural y sem谩ntica.
+2026-05-14 09:45:14,913 - INFO - Filas le铆das: 7043 | Columnas le铆das: 22
+2026-05-14 09:45:14,922 - INFO - No se detectaron errores de validaci贸n.
+2026-05-14 09:45:15,083 - INFO - Validaci贸n completada correctamente.
+2026-05-14 09:45:15,083 - INFO - Reporte guardado en: data/reports/validation_report.csv
+2026-05-14 09:45:15,083 - INFO - Dataset validado guardado en: data/validated/telco_customer_churn_validated.csv

@@ -10,8 +10,11 @@ VALIDATED_PATH = "data/validated/telco_customer_churn_validated.csv"
 
 INSERTED_DIR = "data/inserted"
 REJECTED_DIR = "data/rejected"
+SKIPPED_DIR = "data/skipped"
+
 INSERTED_PATH = os.path.join(INSERTED_DIR, "inserted_records.csv")
 REJECTED_PATH = os.path.join(REJECTED_DIR, "rejected_records.csv")
+SKIPPED_PATH = os.path.join(SKIPPED_DIR, "skipped_records.csv")
 
 LOGS_DIR = "logs"
 LOG_PATH = os.path.join(LOGS_DIR, "carga_bd.log")
@@ -130,6 +133,7 @@ def cargar_datos():
 
         os.makedirs(INSERTED_DIR, exist_ok=True)
         os.makedirs(REJECTED_DIR, exist_ok=True)
+        os.makedirs(SKIPPED_DIR, exist_ok=True)
 
         df = pd.read_csv(VALIDATED_PATH)
 
@@ -224,6 +228,7 @@ def cargar_datos():
 
         pd.DataFrame(inserted_records).to_csv(INSERTED_PATH, index=False)
         pd.DataFrame(rejected_records).to_csv(REJECTED_PATH, index=False)
+        pd.DataFrame(skipped_records).to_csv(SKIPPED_PATH, index=False)
 
         logging.info(f"Registros insertados: {len(inserted_records)}")
         logging.info(f"Registros rechazados: {len(rejected_records)}")
@@ -239,6 +244,7 @@ def cargar_datos():
         print(f"Registros omitidos por conflicto: {len(skipped_records)}")
         print(f"Archivo de insertados: {INSERTED_PATH}")
         print(f"Archivo de rechazados: {REJECTED_PATH}")
+        print(f"Archivo de omitidos: {SKIPPED_PATH}")
         print(f"Log generado en: {LOG_PATH}")
 
     except Exception as e:

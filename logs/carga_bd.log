@@ -5,3 +5,21 @@
 2026-05-08 23:38:37,936 - INFO - Registros rechazados: 0
 2026-05-08 23:38:37,936 - INFO - Registros omitidos por conflicto: 0
 2026-05-08 23:38:37,936 - INFO - Carga a base de datos completada correctamente.
+2026-05-14 09:00:18,424 - INFO - Dataset validado cargado correctamente.
+2026-05-14 09:00:18,425 - INFO - Filas leídas: 7043 | Columnas leídas: 22
+2026-05-14 09:00:19,953 - INFO - Registros insertados: 7043
+2026-05-14 09:00:19,953 - INFO - Registros rechazados: 0
+2026-05-14 09:00:19,953 - INFO - Registros omitidos por conflicto: 0
+2026-05-14 09:00:19,953 - INFO - Carga a base de datos completada correctamente.
+2026-05-14 09:23:23,245 - INFO - Dataset validado cargado correctamente.
+2026-05-14 09:23:23,245 - INFO - Filas leídas: 7043 | Columnas leídas: 22
+2026-05-14 09:23:24,670 - INFO - Registros insertados: 0
+2026-05-14 09:23:24,671 - INFO - Registros rechazados: 0
+2026-05-14 09:23:24,671 - INFO - Registros omitidos por conflicto: 7043
+2026-05-14 09:23:24,671 - INFO - Carga a base de datos completada correctamente.
+2026-05-14 09:45:15,505 - INFO - Dataset validado cargado correctamente.
+2026-05-14 09:45:15,505 - INFO - Filas leídas: 7043 | Columnas leídas: 22
+2026-05-14 09:45:17,006 - INFO - Registros insertados: 0
+2026-05-14 09:45:17,007 - INFO - Registros rechazados: 0
+2026-05-14 09:45:17,007 - INFO - Registros omitidos por conflicto: 7043
+2026-05-14 09:45:17,007 - INFO - Carga a base de datos completada correctamente.
