@@ -29,3 +29,13 @@
 2026-05-14 10:28:30,150 - INFO - Registros rechazados: 0
 2026-05-14 10:28:30,151 - INFO - Registros omitidos por conflicto: 7043
 2026-05-14 10:28:30,151 - INFO - Carga a base de datos completada correctamente.
+2026-05-18 01:31:51,361 - INFO - Dataset validado cargado correctamente.
+2026-05-18 01:31:51,362 - INFO - Filas leídas: 7043 | Columnas leídas: 22
+2026-05-18 01:31:54,063 - ERROR - Error durante la carga: could not translate host name "db" to address: Name or service not known
+
+2026-05-18 01:33:51,115 - INFO - Dataset validado cargado correctamente.
+2026-05-18 01:33:51,115 - INFO - Filas leídas: 7043 | Columnas leídas: 22
+2026-05-18 01:33:52,682 - INFO - Registros insertados: 7043
+2026-05-18 01:33:52,682 - INFO - Registros rechazados: 0
+2026-05-18 01:33:52,682 - INFO - Registros omitidos por conflicto: 0
+2026-05-18 01:33:52,682 - INFO - Carga a base de datos completada correctamente.

@@ -670,3 +670,227 @@ dtype: int64
 2026-05-14 10:28:27,749 - INFO - Limpieza y transformaciÃ³n completadas correctamente.
 2026-05-14 10:28:27,749 - INFO - Archivo guardado en: data/processed/telco_customer_churn_clean.csv
 2026-05-14 10:28:27,749 - INFO - Filas finales: 7043 | Columnas finales: 22
+2026-05-17 01:41:29,267 - INFO - Inspección inicial completada.
+2026-05-17 01:41:29,267 - INFO - Filas iniciales: 7043 | Columnas iniciales: 21
+2026-05-17 01:41:29,267 - INFO - Columnas: ['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn']
+2026-05-17 01:41:29,268 - INFO - Tipos de datos iniciales:
+customerID              str
+gender                  str
+SeniorCitizen         int64
+Partner                 str
+Dependents              str
+tenure                int64
+PhoneService            str
+MultipleLines           str
+InternetService         str
+OnlineSecurity          str
+OnlineBackup            str
+DeviceProtection        str
+TechSupport             str
+StreamingTV             str
+StreamingMovies         str
+Contract                str
+PaperlessBilling        str
+PaymentMethod           str
+MonthlyCharges      float64
+TotalCharges            str
+Churn                   str
+dtype: object
+2026-05-17 01:41:29,272 - INFO - Valores faltantes iniciales:
+customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+Churn               0
+dtype: int64
+2026-05-17 01:41:29,279 - INFO - Duplicados iniciales: 0
+2026-05-17 01:41:29,279 - INFO - CustomerID duplicados iniciales: 0
+2026-05-17 01:41:29,292 - INFO - Se eliminaron espacios en columnas de texto.
+2026-05-17 01:41:29,294 - INFO - Se convirtió TotalCharges a numérico, forzando errores a valores nulos.
+2026-05-17 01:41:29,296 - INFO - Faltantes en TotalCharges antes: 11 | después: 0
+2026-05-17 01:41:29,297 - INFO - Se transformó SeniorCitizen de binario a categoría legible.
+2026-05-17 01:41:29,297 - INFO - Registros removidos por tenure negativo: 0
+2026-05-17 01:41:29,297 - INFO - Registros removidos por MonthlyCharges negativo: 0
+2026-05-17 01:41:29,297 - INFO - Registros removidos por TotalCharges negativo: 0
+2026-05-17 01:41:29,298 - INFO - Se creó la variable derivada Tenure_Group.
+2026-05-17 01:41:29,311 - INFO - Tipos de datos finales:
+customerID              str
+gender                  str
+SeniorCitizen        object
+Partner                 str
+Dependents              str
+tenure                int64
+PhoneService            str
+MultipleLines           str
+InternetService         str
+OnlineSecurity          str
+OnlineBackup            str
+DeviceProtection        str
+TechSupport             str
+StreamingTV             str
+StreamingMovies         str
+Contract                str
+PaperlessBilling        str
+PaymentMethod           str
+MonthlyCharges      float64
+TotalCharges        float64
+Churn                   str
+Tenure_Group            str
+dtype: object
+2026-05-17 01:41:29,314 - INFO - Valores faltantes finales:
+customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+Churn               0
+Tenure_Group        0
+dtype: int64
+2026-05-17 01:41:29,321 - INFO - Duplicados finales: 0
+2026-05-17 01:41:29,322 - INFO - CustomerID duplicados finales: 0
+2026-05-17 01:41:29,347 - INFO - Limpieza y transformación completadas correctamente.
+2026-05-17 01:41:29,348 - INFO - Archivo guardado en: data/processed\telco_customer_churn_clean.csv
+2026-05-17 01:41:29,348 - INFO - Filas finales: 7043 | Columnas finales: 22
+2026-05-18 01:31:01,137 - INFO - Inspección inicial completada.
+2026-05-18 01:31:01,137 - INFO - Filas iniciales: 7043 | Columnas iniciales: 21
+2026-05-18 01:31:01,137 - INFO - Columnas: ['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn']
+2026-05-18 01:31:01,138 - INFO - Tipos de datos iniciales:
+customerID              str
+gender                  str
+SeniorCitizen         int64
+Partner                 str
+Dependents              str
+tenure                int64
+PhoneService            str
+MultipleLines           str
+InternetService         str
+OnlineSecurity          str
+OnlineBackup            str
+DeviceProtection        str
+TechSupport             str
+StreamingTV             str
+StreamingMovies         str
+Contract                str
+PaperlessBilling        str
+PaymentMethod           str
+MonthlyCharges      float64
+TotalCharges            str
+Churn                   str
+dtype: object
+2026-05-18 01:31:01,141 - INFO - Valores faltantes iniciales:
+customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+Churn               0
+dtype: int64
+2026-05-18 01:31:01,149 - INFO - Duplicados iniciales: 0
+2026-05-18 01:31:01,150 - INFO - CustomerID duplicados iniciales: 0
+2026-05-18 01:31:01,162 - INFO - Se eliminaron espacios en columnas de texto.
+2026-05-18 01:31:01,163 - INFO - Se convirtió TotalCharges a numérico, forzando errores a valores nulos.
+2026-05-18 01:31:01,164 - INFO - Faltantes en TotalCharges antes: 11 | después: 0
+2026-05-18 01:31:01,164 - INFO - Se transformó SeniorCitizen de binario a categoría legible.
+2026-05-18 01:31:01,164 - INFO - Registros removidos por tenure negativo: 0
+2026-05-18 01:31:01,165 - INFO - Registros removidos por MonthlyCharges negativo: 0
+2026-05-18 01:31:01,165 - INFO - Registros removidos por TotalCharges negativo: 0
+2026-05-18 01:31:01,166 - INFO - Se creó la variable derivada Tenure_Group.
+2026-05-18 01:31:01,178 - INFO - Tipos de datos finales:
+customerID              str
+gender                  str
+SeniorCitizen        object
+Partner                 str
+Dependents              str
+tenure                int64
+PhoneService            str
+MultipleLines           str
+InternetService         str
+OnlineSecurity          str
+OnlineBackup            str
+DeviceProtection        str
+TechSupport             str
+StreamingTV             str
+StreamingMovies         str
+Contract                str
+PaperlessBilling        str
+PaymentMethod           str
+MonthlyCharges      float64
+TotalCharges        float64
+Churn                   str
+Tenure_Group            str
+dtype: object
+2026-05-18 01:31:01,181 - INFO - Valores faltantes finales:
+customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+Churn               0
+Tenure_Group        0
+dtype: int64
+2026-05-18 01:31:01,188 - INFO - Duplicados finales: 0
+2026-05-18 01:31:01,189 - INFO - CustomerID duplicados finales: 0
+2026-05-18 01:31:01,215 - INFO - Limpieza y transformación completadas correctamente.
+2026-05-18 01:31:01,215 - INFO - Archivo guardado en: data/processed\telco_customer_churn_clean.csv
+2026-05-18 01:31:01,215 - INFO - Filas finales: 7043 | Columnas finales: 22

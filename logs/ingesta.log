@@ -26,3 +26,11 @@
 2026-05-14 10:28:27,131 - INFO - Archivo fuente: data/source/02_Base_WA_Fn-UseC_-Telco-Customer-Churn.csv
 2026-05-14 10:28:27,132 - INFO - Archivo guardado en: data/raw/telco_customer_churn.csv
 2026-05-14 10:28:27,133 - INFO - Filas: 7043 | Columnas: 21
+2026-05-17 00:35:05,494 - INFO - Ingesta completada correctamente.
+2026-05-17 00:35:05,495 - INFO - Archivo fuente: data/source/02_Base_WA_Fn-UseC_-Telco-Customer-Churn.csv
+2026-05-17 00:35:05,495 - INFO - Archivo guardado en: data/raw\telco_customer_churn.csv
+2026-05-17 00:35:05,495 - INFO - Filas: 7043 | Columnas: 21
+2026-05-18 01:30:55,207 - INFO - Ingesta completada correctamente.
+2026-05-18 01:30:55,208 - INFO - Archivo fuente: data/source/02_Base_WA_Fn-UseC_-Telco-Customer-Churn.csv
+2026-05-18 01:30:55,208 - INFO - Archivo guardado en: data/raw\telco_customer_churn.csv
+2026-05-18 01:30:55,208 - INFO - Filas: 7043 | Columnas: 21
