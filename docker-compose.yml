@@ -8,8 +8,8 @@ services:
       PGHOST: db
       PGPORT: 5432
       PGDATABASE: telco_churn_db
-      PGUSER: postgres
-      PGPASSWORD: postgres123
+      PGUSER: ${PGUSER}
+      PGPASSWORD: ${PGPASSWORD}
     volumes:
       - .:/app
 
@@ -17,11 +17,11 @@ services:
     image: postgres:16
     container_name: telco_db
     environment:
-      POSTGRES_DB: telco_churn_db
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres123
+      POSTGRES_DB: ${PGDATABASE}
+      POSTGRES_USER: ${PGUSER}
+      POSTGRES_PASSWORD: ${PGPASSWORD}
     ports:
-      - "5432:5432"
+      - "127.0.0.1:5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
 

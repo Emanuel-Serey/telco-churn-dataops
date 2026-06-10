@@ -1,0 +1,5 @@
+Tipo,Valor,Descripcion
+TN,792,No churn real y No churn predicho
+FP,243,No churn real y churn predicho
+FN,94,Churn real y No churn predicho
+TP,280,Churn real y churn predicho
