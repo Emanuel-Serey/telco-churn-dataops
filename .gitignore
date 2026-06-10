@@ -3,6 +3,4 @@ __pycache__/
 *.pyc
 .vscode/
 .env
-logs/*.log
-output/*.csv
 .ipynb_checkpoints/

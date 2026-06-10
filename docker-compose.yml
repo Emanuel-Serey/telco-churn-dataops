@@ -7,7 +7,7 @@ services:
     environment:
       PGHOST: db
       PGPORT: 5432
-      PGDATABASE: telco_churn_db
+      PGDATABASE: ${PGDATABASE}
       PGUSER: ${PGUSER}
       PGPASSWORD: ${PGPASSWORD}
     volumes:

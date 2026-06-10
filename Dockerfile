@@ -11,4 +11,4 @@ COPY . .
 RUN useradd -m appuser
 USER appuser
 
-CMD ["python", "scripts/run_pipeline.py"]
+CMD ["python", "scripts/run_pipeline_completo.py"]

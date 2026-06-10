@@ -4,10 +4,4 @@ __pycache__/
 .vscode/
 .git/
 img/
-logs/
-data/raw/
-data/processed/
-data/validated/
-data/reports/
-data/inserted/
-data/rejected/
+.ipynb_checkpoints/
