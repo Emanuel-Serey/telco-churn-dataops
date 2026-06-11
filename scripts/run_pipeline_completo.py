@@ -3,18 +3,18 @@ import sys
 import subprocess
 import logging
 
-# -----------------------------
+
 # Rutas base
-# -----------------------------
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCRIPTS_DIR = os.path.join(BASE_DIR, "scripts")
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 
 os.makedirs(LOG_DIR, exist_ok=True)
 
-# -----------------------------
+
 # Configuración de logging
-# -----------------------------
+
 log_file = os.path.join(LOG_DIR, "pipeline_completo.log")
 
 logging.basicConfig(
@@ -68,17 +68,17 @@ if __name__ == "__main__":
     logging.info("Iniciando pipeline completo")
 
     try:
-        # -----------------------------
+        
         # 1. Pipeline de datos
-        # -----------------------------
+        
         ejecutar_script("ingesta.py")
         ejecutar_script("limpieza_transformacion.py")
         ejecutar_script("validacion_datos.py")
         ejecutar_script("carga_bd.py")
 
-        # -----------------------------
+        
         # 2. Modelo final
-        # -----------------------------
+        
         ejecutar_script("modelo_final.py")
 
         print("[LOG] Pipeline completo ejecutado correctamente")
