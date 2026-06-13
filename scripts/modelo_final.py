@@ -68,6 +68,8 @@ logging.info("Variables derivadas creadas correctamente")
 
 # Selección de variables
 
+customer_ids = df["customerID"].copy()
+
 X = df.drop(columns=["customerID", "Churn", "gender", "PhoneService"])
 y = df["Churn"].map({"No": 0, "Yes": 1})
 
@@ -79,12 +81,13 @@ logging.info(f"Variables codificadas: {X_encoded.shape}")
 
 # Train / test split
 
-X_train, X_test, y_train, y_test = train_test_split(
+X_train, X_test, y_train, y_test, id_train, id_test = train_test_split(
     X_encoded,
     y,
+    customer_ids,
     test_size=0.2,
-    stratify=y,
-    random_state=42
+    stratify=y
+    
 )
 
 print("[LOG] División train/test realizada")
@@ -203,6 +206,7 @@ logging.info(f"Curva ROC exportada en: {roc_path}")
 # Exportar predicciones individuales
 
 predicciones_df = X_test.copy()
+predicciones_df["customerID"] = id_test.values
 predicciones_df["Churn_real"] = y_test.values
 predicciones_df["Churn_predicho"] = y_pred
 predicciones_df["Probabilidad_churn"] = y_prob
@@ -216,6 +220,18 @@ predicciones_df["Nivel_riesgo"] = pd.cut(
     labels=["Bajo", "Medio", "Alto"],
     include_lowest=True
 )
+
+columnas_finales = [
+    "customerID",
+    "Probabilidad_churn",
+    "Nivel_riesgo",
+    "Churn_real_label",
+    "Churn_predicho_label",
+    "Churn_real",
+    "Churn_predicho"
+]
+
+predicciones_df = predicciones_df[columnas_finales]
 
 predicciones_path = os.path.join(OUTPUT_DIR, "predicciones_modelo_final.csv")
 predicciones_df.to_csv(predicciones_path, index=False)

@@ -57,3 +57,9 @@
 2026-06-10 04:58:44,007 - INFO - Registros rechazados: 0
 2026-06-10 04:58:44,007 - INFO - Registros omitidos por conflicto: 7043
 2026-06-10 04:58:44,007 - INFO - Carga a base de datos completada correctamente.
+2026-06-12 21:33:58,111 - INFO - Dataset validado cargado correctamente.
+2026-06-12 21:33:58,111 - INFO - Filas leídas: 7043 | Columnas leídas: 22
+2026-06-12 21:33:59,683 - INFO - Registros insertados: 0
+2026-06-12 21:33:59,683 - INFO - Registros rechazados: 0
+2026-06-12 21:33:59,683 - INFO - Registros omitidos por conflicto: 7043
+2026-06-12 21:33:59,683 - INFO - Carga a base de datos completada correctamente.

@@ -40,3 +40,115 @@
 2026-06-10 04:58:45,421 - INFO - Curva ROC exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\curva_roc_modelo_final.csv
 2026-06-10 04:58:45,431 - INFO - Predicciones exportadas en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\predicciones_modelo_final.csv
 2026-06-10 04:58:45,431 - INFO - Pipeline del modelo final completado correctamente
+2026-06-12 19:56:39,733 - INFO - Iniciando pipeline del modelo final
+2026-06-12 19:56:39,759 - INFO - Dataset cargado correctamente: (7043, 22)
+2026-06-12 19:56:39,763 - INFO - Variables derivadas creadas correctamente
+2026-06-12 19:56:39,780 - INFO - Variables codificadas: (7043, 33)
+2026-06-12 19:56:39,813 - INFO - División train/test realizada
+2026-06-12 19:56:39,820 - INFO - Escalado aplicado correctamente
+2026-06-12 19:56:39,847 - INFO - Modelo entrenado correctamente
+2026-06-12 19:56:39,848 - INFO - Predicciones generadas con threshold=0.55
+2026-06-12 19:56:39,856 - INFO - Métricas calculadas correctamente
+2026-06-12 19:56:39,861 - INFO - KPIs exportados en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\kpis_modelo_final.csv
+2026-06-12 19:56:39,862 - INFO - Matriz de confusión exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\matriz_confusion_modelo_final.csv
+2026-06-12 19:56:39,864 - INFO - Curva ROC exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\curva_roc_modelo_final.csv
+2026-06-12 19:56:39,877 - INFO - Predicciones exportadas en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\predicciones_modelo_final.csv
+2026-06-12 19:56:39,877 - INFO - Pipeline del modelo final completado correctamente
+2026-06-12 20:22:38,226 - INFO - Iniciando pipeline del modelo final
+2026-06-12 20:22:38,240 - INFO - Dataset cargado correctamente: (7043, 22)
+2026-06-12 20:22:38,242 - INFO - Variables derivadas creadas correctamente
+2026-06-12 20:22:38,252 - INFO - Variables codificadas: (7043, 33)
+2026-06-12 20:22:38,267 - INFO - División train/test realizada
+2026-06-12 20:22:38,273 - INFO - Escalado aplicado correctamente
+2026-06-12 20:22:38,284 - INFO - Modelo entrenado correctamente
+2026-06-12 20:22:38,286 - INFO - Predicciones generadas con threshold=0.55
+2026-06-12 20:22:38,293 - INFO - Métricas calculadas correctamente
+2026-06-12 20:22:38,295 - INFO - KPIs exportados en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\kpis_modelo_final.csv
+2026-06-12 20:22:38,296 - INFO - Matriz de confusión exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\matriz_confusion_modelo_final.csv
+2026-06-12 20:22:38,298 - INFO - Curva ROC exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\curva_roc_modelo_final.csv
+2026-06-12 20:22:38,303 - INFO - Predicciones exportadas en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\predicciones_modelo_final.csv
+2026-06-12 20:22:38,303 - INFO - Pipeline del modelo final completado correctamente
+2026-06-12 21:34:01,029 - INFO - Iniciando pipeline del modelo final
+2026-06-12 21:34:01,044 - INFO - Dataset cargado correctamente: (7043, 22)
+2026-06-12 21:34:01,046 - INFO - Variables derivadas creadas correctamente
+2026-06-12 21:34:01,056 - INFO - Variables codificadas: (7043, 33)
+2026-06-12 21:34:01,074 - INFO - División train/test realizada
+2026-06-12 21:34:01,082 - INFO - Escalado aplicado correctamente
+2026-06-12 21:34:01,095 - INFO - Modelo entrenado correctamente
+2026-06-12 21:34:01,097 - INFO - Predicciones generadas con threshold=0.55
+2026-06-12 21:34:01,105 - INFO - Métricas calculadas correctamente
+2026-06-12 21:34:01,108 - INFO - KPIs exportados en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\kpis_modelo_final.csv
+2026-06-12 21:34:01,109 - INFO - Matriz de confusión exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\matriz_confusion_modelo_final.csv
+2026-06-12 21:34:01,110 - INFO - Curva ROC exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\curva_roc_modelo_final.csv
+2026-06-12 21:34:01,116 - INFO - Predicciones exportadas en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\predicciones_modelo_final.csv
+2026-06-12 21:34:01,116 - INFO - Pipeline del modelo final completado correctamente
+2026-06-12 21:53:25,577 - INFO - Iniciando pipeline del modelo final
+2026-06-12 21:53:25,593 - INFO - Dataset cargado correctamente: (7043, 22)
+2026-06-12 21:53:25,595 - INFO - Variables derivadas creadas correctamente
+2026-06-12 21:53:25,605 - INFO - Variables codificadas: (7043, 33)
+2026-06-12 21:53:25,622 - INFO - División train/test realizada
+2026-06-12 21:53:25,628 - INFO - Escalado aplicado correctamente
+2026-06-12 21:53:25,641 - INFO - Modelo entrenado correctamente
+2026-06-12 21:53:25,643 - INFO - Predicciones generadas con threshold=0.55
+2026-06-12 21:53:25,651 - INFO - Métricas calculadas correctamente
+2026-06-12 21:53:25,653 - INFO - KPIs exportados en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\kpis_modelo_final.csv
+2026-06-12 21:53:25,654 - INFO - Matriz de confusión exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\matriz_confusion_modelo_final.csv
+2026-06-12 21:53:25,656 - INFO - Curva ROC exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\curva_roc_modelo_final.csv
+2026-06-12 21:53:25,661 - INFO - Predicciones exportadas en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\predicciones_modelo_final.csv
+2026-06-12 21:53:25,662 - INFO - Pipeline del modelo final completado correctamente
+2026-06-12 22:18:49,667 - INFO - Iniciando pipeline del modelo final
+2026-06-12 22:18:49,681 - INFO - Dataset cargado correctamente: (7043, 22)
+2026-06-12 22:18:49,683 - INFO - Variables derivadas creadas correctamente
+2026-06-12 22:18:49,693 - INFO - Variables codificadas: (7043, 33)
+2026-06-12 22:18:49,709 - INFO - División train/test realizada
+2026-06-12 22:18:49,715 - INFO - Escalado aplicado correctamente
+2026-06-12 22:18:49,726 - INFO - Modelo entrenado correctamente
+2026-06-12 22:18:49,727 - INFO - Predicciones generadas con threshold=0.55
+2026-06-12 22:18:49,735 - INFO - Métricas calculadas correctamente
+2026-06-12 22:18:49,737 - INFO - KPIs exportados en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\kpis_modelo_final.csv
+2026-06-12 22:18:49,738 - INFO - Matriz de confusión exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\matriz_confusion_modelo_final.csv
+2026-06-12 22:18:49,740 - INFO - Curva ROC exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\curva_roc_modelo_final.csv
+2026-06-12 22:18:49,746 - INFO - Predicciones exportadas en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\predicciones_modelo_final.csv
+2026-06-12 22:18:49,746 - INFO - Pipeline del modelo final completado correctamente
+2026-06-12 22:22:25,616 - INFO - Iniciando pipeline del modelo final
+2026-06-12 22:22:25,630 - INFO - Dataset cargado correctamente: (7043, 22)
+2026-06-12 22:22:25,632 - INFO - Variables derivadas creadas correctamente
+2026-06-12 22:22:25,642 - INFO - Variables codificadas: (7043, 33)
+2026-06-12 22:22:25,658 - INFO - División train/test realizada
+2026-06-12 22:22:25,664 - INFO - Escalado aplicado correctamente
+2026-06-12 22:22:25,675 - INFO - Modelo entrenado correctamente
+2026-06-12 22:22:25,677 - INFO - Predicciones generadas con threshold=0.55
+2026-06-12 22:22:25,685 - INFO - Métricas calculadas correctamente
+2026-06-12 22:22:25,687 - INFO - KPIs exportados en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\kpis_modelo_final.csv
+2026-06-12 22:22:25,688 - INFO - Matriz de confusión exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\matriz_confusion_modelo_final.csv
+2026-06-12 22:22:25,690 - INFO - Curva ROC exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\curva_roc_modelo_final.csv
+2026-06-12 22:22:25,696 - INFO - Predicciones exportadas en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\predicciones_modelo_final.csv
+2026-06-12 22:22:25,696 - INFO - Pipeline del modelo final completado correctamente
+2026-06-12 22:33:43,618 - INFO - Iniciando pipeline del modelo final
+2026-06-12 22:33:43,632 - INFO - Dataset cargado correctamente: (7043, 22)
+2026-06-12 22:33:43,634 - INFO - Variables derivadas creadas correctamente
+2026-06-12 22:33:43,645 - INFO - Variables codificadas: (7043, 33)
+2026-06-12 22:33:43,661 - INFO - División train/test realizada
+2026-06-12 22:33:43,667 - INFO - Escalado aplicado correctamente
+2026-06-12 22:33:43,679 - INFO - Modelo entrenado correctamente
+2026-06-12 22:33:43,681 - INFO - Predicciones generadas con threshold=0.55
+2026-06-12 22:33:43,689 - INFO - Métricas calculadas correctamente
+2026-06-12 22:33:43,691 - INFO - KPIs exportados en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\kpis_modelo_final.csv
+2026-06-12 22:33:43,692 - INFO - Matriz de confusión exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\matriz_confusion_modelo_final.csv
+2026-06-12 22:33:43,693 - INFO - Curva ROC exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\curva_roc_modelo_final.csv
+2026-06-12 22:33:43,699 - INFO - Predicciones exportadas en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\predicciones_modelo_final.csv
+2026-06-12 22:33:43,699 - INFO - Pipeline del modelo final completado correctamente
+2026-06-12 22:34:27,025 - INFO - Iniciando pipeline del modelo final
+2026-06-12 22:34:27,038 - INFO - Dataset cargado correctamente: (7043, 22)
+2026-06-12 22:34:27,041 - INFO - Variables derivadas creadas correctamente
+2026-06-12 22:34:27,051 - INFO - Variables codificadas: (7043, 33)
+2026-06-12 22:34:27,067 - INFO - División train/test realizada
+2026-06-12 22:34:27,073 - INFO - Escalado aplicado correctamente
+2026-06-12 22:34:27,086 - INFO - Modelo entrenado correctamente
+2026-06-12 22:34:27,088 - INFO - Predicciones generadas con threshold=0.55
+2026-06-12 22:34:27,095 - INFO - Métricas calculadas correctamente
+2026-06-12 22:34:27,097 - INFO - KPIs exportados en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\kpis_modelo_final.csv
+2026-06-12 22:34:27,098 - INFO - Matriz de confusión exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\matriz_confusion_modelo_final.csv
+2026-06-12 22:34:27,100 - INFO - Curva ROC exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\curva_roc_modelo_final.csv
+2026-06-12 22:34:27,106 - INFO - Predicciones exportadas en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\predicciones_modelo_final.csv
+2026-06-12 22:34:27,106 - INFO - Pipeline del modelo final completado correctamente

@@ -54,3 +54,7 @@
 2026-06-10 04:58:41,099 - INFO - Archivo fuente: data/source/02_Base_WA_Fn-UseC_-Telco-Customer-Churn.csv
 2026-06-10 04:58:41,099 - INFO - Archivo guardado en: data/raw\telco_customer_churn.csv
 2026-06-10 04:58:41,099 - INFO - Filas: 7043 | Columnas: 21
+2026-06-12 21:33:56,348 - INFO - Ingesta completada correctamente.
+2026-06-12 21:33:56,348 - INFO - Archivo fuente: data/source/02_Base_WA_Fn-UseC_-Telco-Customer-Churn.csv
+2026-06-12 21:33:56,348 - INFO - Archivo guardado en: data/raw\telco_customer_churn.csv
+2026-06-12 21:33:56,348 - INFO - Filas: 7043 | Columnas: 21

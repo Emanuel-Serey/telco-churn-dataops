@@ -64,3 +64,9 @@
 2026-06-10 04:58:42,160 - INFO - Validación completada correctamente.
 2026-06-10 04:58:42,160 - INFO - Reporte guardado en: data/reports\validation_report.csv
 2026-06-10 04:58:42,160 - INFO - Dataset validado guardado en: data/validated\telco_customer_churn_validated.csv
+2026-06-12 21:33:57,401 - INFO - Inicio de validación estructural y semántica.
+2026-06-12 21:33:57,402 - INFO - Filas leídas: 7043 | Columnas leídas: 22
+2026-06-12 21:33:57,408 - INFO - No se detectaron errores de validación.
+2026-06-12 21:33:57,434 - INFO - Validación completada correctamente.
+2026-06-12 21:33:57,434 - INFO - Reporte guardado en: data/reports\validation_report.csv
+2026-06-12 21:33:57,434 - INFO - Dataset validado guardado en: data/validated\telco_customer_churn_validated.csv

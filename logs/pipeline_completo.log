@@ -348,3 +348,178 @@ Log generado en: logs\carga_bd.log
 
 2026-06-10 04:58:45,560 - INFO - modelo_final.py ejecutado correctamente
 2026-06-10 04:58:45,560 - INFO - Pipeline completo ejecutado correctamente
+2026-06-12 21:33:55,871 - INFO - Iniciando pipeline completo
+2026-06-12 21:33:55,871 - INFO - Ejecutando: ingesta.py
+2026-06-12 21:33:56,387 - INFO - Ingesta completada correctamente.
+Archivo fuente: data/source/02_Base_WA_Fn-UseC_-Telco-Customer-Churn.csv
+Archivo guardado en: data/raw\telco_customer_churn.csv
+Filas: 7043 | Columnas: 21
+Log generado en: logs\ingesta.log
+
+2026-06-12 21:33:56,387 - INFO - ingesta.py ejecutado correctamente
+2026-06-12 21:33:56,387 - INFO - Ejecutando: limpieza_transformacion.py
+2026-06-12 21:33:56,995 - INFO - Columnas:
+['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn']
+
+Tipos de datos:
+customerID              str
+gender                  str
+SeniorCitizen         int64
+Partner                 str
+Dependents              str
+tenure                int64
+PhoneService            str
+MultipleLines           str
+InternetService         str
+OnlineSecurity          str
+OnlineBackup            str
+DeviceProtection        str
+TechSupport             str
+StreamingTV             str
+StreamingMovies         str
+Contract                str
+PaperlessBilling        str
+PaymentMethod           str
+MonthlyCharges      float64
+TotalCharges            str
+Churn                   str
+dtype: object
+
+Valores faltantes por columna:
+customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+Churn               0
+dtype: int64
+
+Cantidad de duplicados:
+0
+
+CustomerID duplicados:
+0
+
+Tipos de datos después de la limpieza:
+customerID              str
+gender                  str
+SeniorCitizen        object
+Partner                 str
+Dependents              str
+tenure                int64
+PhoneService            str
+MultipleLines           str
+InternetService         str
+OnlineSecurity          str
+OnlineBackup            str
+DeviceProtection        str
+TechSupport             str
+StreamingTV             str
+StreamingMovies         str
+Contract                str
+PaperlessBilling        str
+PaymentMethod           str
+MonthlyCharges      float64
+TotalCharges        float64
+Churn                   str
+Tenure_Group            str
+dtype: object
+
+Valores faltantes después de la limpieza:
+customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+Churn               0
+Tenure_Group        0
+dtype: int64
+
+Cantidad de duplicados después de la limpieza:
+0
+
+CustomerID duplicados después de la limpieza:
+0
+
+Limpieza y transformación completadas correctamente.
+Archivo guardado en: data/processed\telco_customer_churn_clean.csv
+Filas finales: 7043 | Columnas finales: 22
+Log generado en: logs\limpieza_transformacion.log
+
+2026-06-12 21:33:56,996 - WARNING - c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\scripts\limpieza_transformacion.py:76: Pandas4Warning: For backward compatibility, 'str' dtypes are included by select_dtypes when 'object' dtype is specified. This behavior is deprecated and will be removed in a future version. Explicitly pass 'str' to `include` to select them, or to `exclude` to remove them and silence this warning.
+See https://pandas.pydata.org/docs/user_guide/migration-3-strings.html#string-migration-select-dtypes for details on how to write code that works with pandas 2 and 3.
+  columnas_objeto = df.select_dtypes(include="object").columns
+
+2026-06-12 21:33:56,996 - INFO - limpieza_transformacion.py ejecutado correctamente
+2026-06-12 21:33:56,996 - INFO - Ejecutando: validacion_datos.py
+2026-06-12 21:33:57,468 - INFO - Validación completada correctamente.
+Reporte guardado en: data/reports\validation_report.csv
+Dataset validado guardado en: data/validated\telco_customer_churn_validated.csv
+Log generado en: logs\validacion_datos.log
+
+2026-06-12 21:33:57,468 - INFO - validacion_datos.py ejecutado correctamente
+2026-06-12 21:33:57,468 - INFO - Ejecutando: carga_bd.py
+2026-06-12 21:33:59,727 - INFO - Carga a base de datos completada correctamente.
+Motor utilizado: PostgreSQL
+Base de datos destino: telco_churn_db
+Tabla destino: telco_churn_cases
+Registros insertados: 0
+Registros rechazados: 0
+Registros omitidos por conflicto: 7043
+Archivo de insertados: data/inserted\inserted_records.csv
+Archivo de rechazados: data/rejected\rejected_records.csv
+Archivo de omitidos: data/skipped\skipped_records.csv
+Log generado en: logs\carga_bd.log
+
+2026-06-12 21:33:59,727 - INFO - carga_bd.py ejecutado correctamente
+2026-06-12 21:33:59,727 - INFO - Ejecutando: modelo_final.py
+2026-06-12 21:34:01,262 - INFO - [LOG] Iniciando pipeline del modelo final...
+[LOG] Dataset cargado correctamente: (7043, 22)
+[LOG] Variables derivadas creadas correctamente
+[LOG] Variables codificadas: (7043, 33)
+[LOG] División train/test realizada
+[LOG] Escalado aplicado correctamente
+[LOG] Modelo entrenado correctamente
+[LOG] Predicciones generadas con threshold=0.55
+[LOG] Métricas calculadas correctamente
+[LOG] KPIs exportados en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\kpis_modelo_final.csv
+[LOG] Matriz de confusión exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\matriz_confusion_modelo_final.csv
+[LOG] Curva ROC exportada en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\curva_roc_modelo_final.csv
+[LOG] Predicciones exportadas en: c:\Users\Tomy\Desktop\Proyectos Gestion de datos para IA\telco_churn_dataops\output\predicciones_modelo_final.csv
+[LOG] Pipeline del modelo final completado correctamente
+
+2026-06-12 21:34:01,262 - WARNING - C:\Users\Tomy\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py:1403: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None.
+  warnings.warn(
+
+2026-06-12 21:34:01,262 - INFO - modelo_final.py ejecutado correctamente
+2026-06-12 21:34:01,262 - INFO - Pipeline completo ejecutado correctamente
